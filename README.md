@@ -23,6 +23,7 @@ set --global brew_location /home/linuxbrew/.linuxbrew/bin/brew
 ### Aliases
 
 There's a lot...
+Note commands containing `--cask` will only work on MacOS.
 
 | Alias  | Command                               | Description                                                           |
 | ------ | ------------------------------------- | --------------------------------------------------------------------- |
