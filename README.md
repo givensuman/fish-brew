@@ -1,34 +1,29 @@
+# fish-brew
 
-fish-plugin-brew
-================
+Fork of [TacoMilkshake/fish-plugin-brew](https://github.com/TacoMilkshake/fish-plugin-brew) with LinuxBrew support, combined with [ohmyzsh/brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) ported to the Fish shell.
 
-Fish shell plugin to integrate [Homebrew](http://brew.sh) paths into macOS shell. This plugin also includes an improved ``brew leaves`` command that shows dependencies, invocable via ``bleaves``.
+### Installation
 
-Install
--------
+Install with [fisher](https://github.com/jorgebucaran/fisher):
 
-> *Note*: You need to have `brew` installed.
-
-#### Oh My Fish
-
-```fish
-$ omf install jamiesteven/fish-plugin-brew
+```shell
+fisher install givensuman/fish-brew
 ```
 
-#### Fisher
-```fish
-$ fisher install jamiesteven/fish-plugin-brew
+### Usage
+
+Initializes `brew` with necessary functions and completions for Fish.
+
+Set the `brew_location` environment variable to specify an alternate `brew` location.
+
+```shell
+set --global brew_location /home/linuxbrew/.linuxbrew/bin/brew
 ```
 
-#### Fundle
-```fish
-$ fundle plugin jamiesteven/fish-plugin-brew
-$ fundle init
-$ fundle install
+### Requirements
 
-```
+Just requires [brew](https://brew.sh/)!
 
-License
-=======
+### License
 
-[MIT License](http://opensource.org/licenses/MIT) Copyright 2022 [jamiesteven](http://github.com/jamiesteven) and [others](https://github.com/oh-my-fish/plugin-brew/graphs/contributors)
+[MIT](../LICENSE)
