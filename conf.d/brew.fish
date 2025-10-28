@@ -1,10 +1,3 @@
-if not command -q brew
-    echo "brew is not installed but you're"
-    echo "sourcing the fish plugin for it"
-
-    return 1
-end
-
 set -l brew_locations \
     /opt/homebrew/bin \
     /usr/local/bin \
@@ -32,6 +25,13 @@ else
             break
         end
     end
+end
+
+if not command -q brew
+    echo "brew is not installed but you're"
+    echo "sourcing the fish plugin for it"
+
+    return 1
 end
 
 alias bl bleaves
