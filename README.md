@@ -28,7 +28,6 @@ There's a lot...
 | ------ | ------------------------------------- | --------------------------------------------------------------------- |
 | bl     | bleaves                               | Run custom `bleaves` function.                                        |
 | bi     | brew install                          | Install a formula.                                                    |
-| bar    | brew autoremove                       | Uninstall unnecessary formulae.                                       |
 | ba     | brew autoremove                       | Uninstall unnecessary formulae.                                       |
 | bcfg   | brew config                           | Show Homebrew and system configuration info useful for debugging.     |
 | bci    | brew info --cask                      | Display information about the given cask.                             |
