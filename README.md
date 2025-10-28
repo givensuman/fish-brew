@@ -25,7 +25,7 @@ set --global brew_location /home/linuxbrew/.linuxbrew/bin/brew
 There's a lot...
 
 | Alias  | Command                               | Description                                                           |
-| ------ | ------------------------------------- | --------------------------------------------------------------------- | ------- | --- |
+| ------ | ------------------------------------- | --------------------------------------------------------------------- |
 | ba     | brew autoremove                       | Uninstall unnecessary formulae.                                       |
 | bcfg   | brew config                           | Show Homebrew and system configuration info useful for debugging.     |
 | bci    | brew info --cask                      | Display information about the given cask.                             |
