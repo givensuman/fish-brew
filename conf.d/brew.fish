@@ -36,7 +36,6 @@ end
 
 alias bl bleaves
 alias bi 'brew install'
-alias br 'brew rmtree'
 alias bar 'brew autoremove'
 alias ba 'brew autoremove'
 alias bcfg 'brew config'
