@@ -1,3 +1,7 @@
+<div align="center">
+  <img alt="fish-brew" src="./assets/logo.png" width="200" />
+</div>
+
 # fish-brew
 
 Fork of [TacoMilkshake/fish-plugin-brew](https://github.com/TacoMilkshake/fish-plugin-brew) with LinuxBrew support, combined with [ohmyzsh/brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) ported to the Fish shell.
